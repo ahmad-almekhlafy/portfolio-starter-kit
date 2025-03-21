@@ -1,1 +1,12 @@
-{}
+{
+  "routes": [
+    {
+      "route": "/blog",
+      "methods": [
+        "get"
+      ],
+      "redirect": "/blog/vim",
+      "statusCode": 301
+    }
+  ]
+}
